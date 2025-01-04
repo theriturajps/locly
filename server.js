@@ -10,10 +10,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // MongoDB connection
-mongoose.connect(process.env.DB, {
-	useNewUrlParser: true,
-	useUnifiedTopology: true
-});
+mongoose.connect(process.env.DB);
 
 // Location Schema
 const locationSchema = new mongoose.Schema({
