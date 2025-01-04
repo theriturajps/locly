@@ -1,0 +1,2 @@
+# node_modules is where npm installs packages. It's not needed in the repository.
+node_modules

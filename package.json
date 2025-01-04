@@ -9,10 +9,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "mongoose": "^8.9.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theriturajps/locly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theriturajps/locly/issues"
+  },
+  "homepage": "https://github.com/theriturajps/locly#readme",
+  "description": ""
 }
